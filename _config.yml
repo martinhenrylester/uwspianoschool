@@ -1,17 +1,17 @@
-url: https://y7kim.github.io
-baseurl: /agency-jekyll-theme/
+url: https://www.uwspianoschool.com
+baseurl: /uwspianoschool/
 
 # Site settings
-title: Awesome Title
+title: UWS Piano School
 email: your-email@domain.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+description: "Write an awesome description for your piano school. This will appear in your document head meta (for Google search results) and in your feed.xml site description."
 
 
 # Team names, titles and social links
 people:
-- name: Kay Garland
+- name: Sean Carmichael
   pic: 1
-  position: Lead Designer
+  position: Doctor of Piano
   social:
     - title: twitter
       url: #
@@ -20,9 +20,9 @@ people:
     - title: stack-overflow
       url: #
 
-- name: Larry Parker
+- name: Nadezhda Christova Carmichael
   pic: 2
-  position: Lead Marketer
+  position: Master of the Keys
   social:
     - title: twitter
       url: #
@@ -45,15 +45,9 @@ people:
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
-    url: http://twitter.com/jekyllrb
+    url: https://twitter.com/uwspianoschool
   - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket 
-    url: http://bitbucket.org/jekyll
-  - title: github
-    url: http://github.com/jekyll
+    url: https://facebook.com/uwspianoschool
 
 # Postal address (add as many lines as necessary)
 address:
