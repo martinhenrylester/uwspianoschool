@@ -1,29 +1,36 @@
 <!-- Portfolio Grid Section -->
-    <section id="portfolio" class="bg-light-gray">
+    <section id="gallery" class="bg-light-gray">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Portfolio</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h2 class="section-heading">Gallery</h2>
+                    <h3 class="section-subheading text-muted">"Ordinary people do extraordinary things all the time" ~Someone</h3>
                 </div>
             </div>
             <div class="row">
-            {% for post in site.posts %}
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/{{ post.thumbnail }}" class="img-responsive img-centered" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>{{ post.title }}</h4>
-                        <p class="text-muted">{{ post.subtitle }}</p>
-                    </div>
-                </div>
-            {% endfor %}
+              <div id="myCarousel" class="carousel slide" data-ride="carousel">
+              <!-- Carousel indicators -->
+              <ol class="carousel-indicators">
+                  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                  <li data-target="#myCarousel" data-slide-to="1"></li>
+              </ol>
+              <!-- Wrapper for carousel items -->
+              <div class="carousel-inner">
+                  <div class="item active">
+                      <img src="img/gallery/kid1.jpg" alt="First Slide">
+                  </div>
+                  <div class="item">
+                      <img src="img/gallery/kid2.jpg" alt="Second Slide">
+                  </div>
+              </div>
+              <!-- Carousel controls -->
+              <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+                  <i class="fa fa-chevron-left" aria-hidden="true"></i>
+              </a>
+              <a class="carousel-control right" href="#myCarousel" data-slide="next">
+                  <i class="fa fa-chevron-right" aria-hidden="true"></i>
+              </a>
+          </div>
             </div>
         </div>
     </section>

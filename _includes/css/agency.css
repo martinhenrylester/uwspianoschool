@@ -867,3 +867,10 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #{{ site.data.template.color.primary }};
 }
+
+.carousel-control .icon-prev, .carousel-control .icon-next, .carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .fa-chevron-right, .carousel-control .fa-chevron-left{
+    position: absolute;
+    top: 50%;
+    z-index: 5;
+    display: inline-block;
+}
