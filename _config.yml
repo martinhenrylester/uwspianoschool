@@ -13,33 +13,23 @@ people:
   pic: 1
   position: Doctor of Piano
   social:
-    - title: twitter
-      url: #
+    - title: linkedin
+      url: https://www.linkedin.com/in/sean-carmichael-313362107/
     - title: facebook
       url: #
-    - title: stack-overflow
+    - title: twitter
       url: #
+
 
 - name: Nadezhda Christova Carmichael
   pic: 2
   position: Master of the Keys
   social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
     - title: linkedin
-      url: #
-
-- name: Diana Petersen
-  pic: 3
-  position: Lead Developer
-  social:
-    - title: twitter
-      url: #
+      url: https://www.linkedin.com/in/nadezhda-christova-0b8b05110/
     - title: facebook
       url: #
-    - title: google-plus
+    - title: twitter
       url: #
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
