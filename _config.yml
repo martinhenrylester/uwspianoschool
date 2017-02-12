@@ -12,6 +12,7 @@ people:
 - name: Sean Carmichael
   pic: 1
   position: Doctor of Piano
+  bio: Four score and seven years ago, a man was born. Well he was originally a baby, but now he is a man. He knows the keys and will bring new meaning to the phrase "take me to church"!
   social:
     - title: linkedin
       url: https://www.linkedin.com/in/sean-carmichael-313362107/
@@ -24,6 +25,7 @@ people:
 - name: Nadezhda Christova Carmichael
   pic: 2
   position: Master of the Keys
+  bio: Nadia has played the piano since she was a little girl. Now she still plays the piano. She will teach ya!
   social:
     - title: linkedin
       url: https://www.linkedin.com/in/nadezhda-christova-0b8b05110/
