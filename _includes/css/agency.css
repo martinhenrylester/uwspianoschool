@@ -177,14 +177,17 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-brand {
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
-    color: #{{ site.data.template.color.primary }};
+    /*color: #{{ site.data.template.color.primary }};*/
+    color: transparent;
+    background-color: transparent;
 }
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-    color: #{{ site.data.template.color.secondary }};
+    /*color: #{{ site.data.template.color.secondary }};*/
+    color: transparent;
 }
 
 .navbar-default .navbar-collapse {
@@ -249,6 +252,10 @@ fieldset[disabled] .btn-xl.active {
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
+        background-image: url('{{ site.baseurl }}/img/logos/{{ site.logo }}.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
     }
 
     .navbar-default .navbar-nav>.active>a {
@@ -262,6 +269,10 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink .navbar-brand {
         font-size: 1.5em;
+        background-image: url('{{ site.baseurl }}/img/logos/{{ site.logo-alt }}.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
     }
 }
 
@@ -281,31 +292,121 @@ header {
 header .intro-text {
     padding-top: 100px;
     padding-bottom: 50px;
+    color: black;
+    text-align: left;
 }
 
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
     font-family: {{ site.data.template.font.secondary }};
-    font-size: 22px;
+    font-size: 40px;
     font-style: italic;
-    line-height: 22px;
-    text-shadow: 0 1px black;
+    line-height: 45px;
+    text-shadow: 2px 2px 20px white, -2px -2px 20px white, -2px 2px 20px white, 2px -2px 20px white;
+
 }
 
 header .intro-text .intro-heading {
     margin-bottom: 25px;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     font-family: {{ site.data.template.font.primary }};
-    font-size: 50px;
+    font-size: 21px;
     font-weight: 700;
-    line-height: 50px;
-    text-shadow: 0 1px black;
+    line-height: 30px;
+    text-shadow: 2px 2px 20px white, -2px -2px 20px white, -2px 2px 20px white, 2px -2px 20px white;
+}
+
+header .sale-modal {
+  background: transparent;
+  border: none;
+  text-align: center;
+  min-height: 1em;
+  min-width: 12em;
+  box-shadow: -0.3em 0.3em 0.5em rgba(0,0,0,0.2);
+  position: fixed;
+  top: 30%;
+  right: 1em;
+  z-index: 1;
+  color: #eee;
+  font-size: 2em;
+  cursor: pointer;
+  width: 1.5em;
+  line-height: 0.5em;
+  -webkit-transition: line-height 0.5s;
+  transition: line-height 0.5s;
+}
+
+header .close-ribbon{
+  position: absolute;
+  top: 0;
+  right: 1em;
+  z-index: 1;
+  color: #eee;
+  font-size: 25px;
+  cursor: pointer;
+  width: 1.5em;
+  line-height: 0px;
+  -webkit-transition: line-height 0.5s;
+  transition: line-height 0.5s;
+}
+
+header .close-ribbon:after {
+  content: "";
+  font-size: 0.5em;
+  position: absolute;
+  height: 4.2em;
+  border: 1.5em solid #F44336;
+  z-index: -1;
+  top: -1em;
+  border-top-width: 1.5em;
+  border-bottom-color: transparent;
+  right: 0;
+  -webkit-transition: height 0.5s;
+  transition: height 0.5s;
+}
+
+header .close-ribbon:before {
+  content: "";
+  font-size: 0.5em;
+  position: absolute;
+  border-style: solid;
+  border-color: transparent transparent #B71C1C transparent;
+  top: -1em;
+  right: 3em;
+  border-width: 0 0 1em 0.7em;
+  z-index: -1;
+}
+
+header .close-ribbon:hover:after{
+  border: 1.5em solid #EF5350;
+  border-bottom-color: transparent;
+  height: 5.0em;
+  -webkit-transition: height 0.5s;
+  transition: height 0.5s;
+}
+
+header .close-ribbon:hover{
+  line-height: 0.9em;
+  color: #333;
+  -webkit-transition: line-height 0.5s;
+  transition: line-height 0.5s;
+}
+
+header .modal-content{
+  padding: 1.5em 0;
+  color: black;
+}
+
+header .description{
+  font-style: italic;
+  font-size: 0.9em;
+  color: #989898;
 }
 
 @media(min-width:768px) {
     header .intro-text {
         padding-top: 300px;
-        padding-bottom: 200px;
+        padding-bottom: 300px;
     }
 
     header .intro-text .intro-lead-in {
@@ -317,12 +418,12 @@ header .intro-text .intro-heading {
     }
 
     header .intro-text .intro-heading {
-        margin-bottom: 50px;
-        text-transform: uppercase;
+        margin-bottom: 25px;
+        /*text-transform: uppercase;*/
         font-family: {{ site.data.template.font.primary }};
-        font-size: 75px;
+        font-size: 21px;
         font-weight: 700;
-        line-height: 75px;
+        line-height: 10px;
     }
 }
 
@@ -642,6 +743,10 @@ section h3.section-subheading {
 .team-member img {
     margin: 0 auto;
     border: 7px solid #fff;
+}
+
+.team-member .img-rounded {
+    border-radius: 15px;
 }
 
 .team-member h4 {

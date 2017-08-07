@@ -35,3 +35,7 @@ $('div.modal').on('show.bs.modal', function() {
 		}
 	}
 });
+
+$('a.close-ribbon').on('click', function(){
+    $('div.sale-modal').hide();
+});
