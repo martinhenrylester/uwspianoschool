@@ -39,3 +39,30 @@ $('div.modal').on('show.bs.modal', function() {
 $('a.close-ribbon').on('click', function(){
     $('div.sale-modal').hide();
 });
+
+$('.in-studio-button').on('click', function(){
+    $('.in-studio-rates').show();
+    $('.in-home-rates').hide();
+    $('.online-rates').hide();
+    $('.in-studio-button').css('background-color', 'darkgray');
+    $('.in-home-button').css('background-color', 'none');
+    $('.online-button').css('background-color', 'none');
+});
+
+$('.in-home-button').on('click', function(){
+    $('.in-studio-rates').hide();
+    $('.in-home-rates').show();
+    $('.online-rates').hide();
+    $('.in-studio-button').css('background-color', 'none');
+    $('.in-home-button').css('background-color', 'darkgray');
+    $('.online-button').css('background-color', 'none');
+});
+
+$('.online-button').on('click', function(){
+    $('.in-studio-rates').hide();
+    $('.in-home-rates').hide();
+    $('.online-rates').show();
+    $('.in-studio-button').css('background-color', 'none');
+    $('.in-home-button').css('background-color', 'none');
+    $('.online-button').css('background-color', 'darkgray');
+});
