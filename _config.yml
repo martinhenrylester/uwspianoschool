@@ -48,8 +48,10 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 23 W 71st St
+  - line: 123 W 71st St
   - line: New York, NY 10023
+
+phone: (203) 900-4209
 
 # Build settings
 markdown: kramdown

@@ -802,7 +802,7 @@ aside.clients img {
 
 section#contact {
     background-color: #222;
-    background-image: url('{{ site.baseurl }}/img/map-image.png');
+    background-image: url('{{ site.baseurl }}/img/piano-2412398_1920.jpg');
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -863,6 +863,10 @@ section#contact:-ms-input-placeholder {
 
 section#contact .text-danger {
     color: #e74c3c;
+}
+
+address.section-subheading.text-muted.contact-info {
+    padding-bottom: 100px;
 }
 
 footer {
