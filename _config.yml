@@ -3,7 +3,7 @@ baseurl: /uwspianoschool/
 
 # Site settings
 title: UWS Piano School
-email: your-email@domain.com
+email: contact@uwspianoschool.com
 description: "Write an awesome description for your piano school. This will appear in your document head meta (for Google search results) and in your feed.xml site description."
 logo: uws_ps_logo
 logo-alt: uws_ps_logo_yellow
@@ -14,7 +14,7 @@ team-description: <p>At Upper West Side Piano School we offer <strong>one-on-one
 people:
 - name: Sean Carmichael
   pic: 1
-  position: Doctor of Piano
+  position: Doctor of Musical Arts
   mini-bio: <p>Sean Carmichael is the Director of Music and organist at Grace and St. Paul’s Church and a doctoral candidate in Piano Performance at the University of Maryland, studying under the direction of Dr. Mayron Tsong. He completed his Bachelor of Music with a concentration in Piano Pedagogy and Master of Music degrees in Piano Performance at SUNY Potsdam while studying with renowned pianist and painter, Dr. Paul Wyse.</p>
   bio: <p>With a passion for teaching, Mr. Carmichael maintained a private piano studio at the International School of Music in Bethesda, MD, taught at the Jubilee Enrichment Program in New York, NY and spent three summers as piano faculty at the State University of New York at Potsdam’s Crane Youth Music summer program, where he taught private lessons and lead masterclasses. In March of 2017, he served on the adjudication panel for the 69th annual Hong Kong Schools Music Festival, which attracts over 150,000 students throughout the course of five weeks. </p><p>A winner of the Crane Concerto Competition, Mr. Carmichael performed Rachmaninoff's First Concerto with the Crane Symphony Orchestra in 2007. He has given solo performances at the Troy Savings Bank Music Hall, Rubinstein Hall in Munich, Binghamton’s Tri-Cities Opera Center, the Old Forge Arts Center and has toured New York State in a series of outreach performances with three former colleagues presenting the Chopin Etudes and Preludes.</p><p>As a collaborative pianist, he worked with the Crane Opera Ensemble from 2006 through 2009 with such artists as Sylvia and David Aronson of the Vienna State Opera and Christine Brewer. He was also privileged to accompany the Crane Chorus singing Bach’s B minor Mass under the baton of Helmuth Rilling as well as the University of Maryland Choir singing Britten’s War Requiem with the Baltimore Symphony Orchestra under Marin Alsop. During graduate school, Mr. Carmichael was awarded with two collaborative piano assistantships and recently completed both doctoral degree recitals, advancing him to candidacy.</p>
   social:
@@ -26,9 +26,9 @@ people:
       url: #
 
 
-- name: Nadezhda Christova Carmichael
+- name: Nadia Christova Carmichael
   pic: 2
-  position: Master of the Keys
+  position: Doctor of Musical Arts
   mini-bio: <p>Born and raised in Bulgaria, Dr. Nadia Christova Carmichael has been studying and performing piano since the age of six.  She attended the National School of Music in Sofia, Bulgaria majoring in Piano Performance and Pedagogy.  In 2006, she graduated with a Bachelors of Music with honors in Piano Performance from the National Academy of Music in Sofia.  After relocating to the United States, Dr. Christova Carmichael obtained her Masters in Chamber Music and Piano Performance from the University of South Florida in Tampa where she studied with Dr. Svetozar Ivanov.  She recently completed her doctoral studies at the University of Maryland, College Park under the tutelage of the renowned pianist and pedagogue Rita Sloan.</p>
   bio: <p>For over 10 years, Dr. Christova Carmichael has been teaching piano to students of all ages and backgrounds.  She taught both Class Piano and Accompanying Skills at the University of South Florida. Along with maintaining a private studio, she held faculty positions at the International School of Music in Bethesda, MD and the Jubilee Enrichment Program in Manhattan’s Chinatown.</p><p>As an active chamber recitalist and a vocal collaborator Dr. Christova Carmichael has appeared extensively throughout the United States and Europe. She has spent summers at the Aspen Music Festival and School as a collaborative pianist with both the instrumental fellowship (2011) and the prestigious New Horizons fellowship (2012, 2014).  Additionally, she participated in the Siena Music Festival in Siena, Italy as the official concerto accompanist of the program.</p><p>A devotee of choral music, Dr. Christova Carmichael had the chance to accompany the University of Maryland Concert Choir, singing Mozart’s Requiem under the baton of Christoph Eschenbach.  Additionally, she was the accompanist for the Washington Sängerbund, the oldest German singing society in the Washington DC area, from 2011 to 2016.  Currently she serves as the Minister of Music at Zion Lutheran Church in Maywood, NJ; the pianist for the Ars Musica Chorale in Ridgewood, NJ; accompanist and choral assistant at Collegiate School on the UWS; and an accompanist for Education Through Music – a program partnering with inner-city schools to provide children with high quality music education.</p>
   social:
