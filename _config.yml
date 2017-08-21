@@ -20,10 +20,6 @@ people:
   social:
     - title: linkedin
       url: https://www.linkedin.com/in/sean-carmichael-313362107/
-    - title: facebook
-      url: #
-    - title: twitter
-      url: #
 
 
 - name: Nadia Christova Carmichael
@@ -34,10 +30,6 @@ people:
   social:
     - title: linkedin
       url: https://www.linkedin.com/in/nadezhda-christova-0b8b05110/
-    - title: facebook
-      url: #
-    - title: twitter
-      url: #
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
