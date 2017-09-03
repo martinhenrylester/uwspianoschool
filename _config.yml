@@ -45,6 +45,14 @@ address:
 
 phone: (203) 900-4209
 
+in-studio-30min: 50
+in-studio-45min: 75
+in-studio-60min: 100
+
+in-home-30min: 70
+in-home-45min: 100
+in-home-60min: 130
+
 # Build settings
 markdown: kramdown
 permalink: pretty
