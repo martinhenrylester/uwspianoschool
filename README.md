@@ -1,30 +1,4 @@
-Agency Jekyll theme
+Piano Lessons | Upper West Side | UWS Piano School
 ====================
 
-Agency theme based on [Agency bootstrap theme ](https://startbootstrap.com/template-overviews/agency/)
-
-# How to use
-
-###Portfolio 
-
-Portfolio projects are in '/_posts'
-
-Images are in '/img/portfolio'
-
-###About
-
-Images are in '/img/about/'
-
-###Team
-
-Team members and info are in '_config.yml'
-
-Images are in '/img/team/'
-
-
-# Demo
-
-View this jekyll theme in action [here](https://y7kim.github.io/agency-jekyll-theme)
-
-=========
-For more details, read [documentation](http://jekyllrb.com/)
+Offering in-home and in-studio piano lessons to children and adults; beginner, intermediate and advanced students on the Upper West Side.  Receive fun and effective lessons tailored to your own goals on a Steinway grand piano with conservatory trained pianists.  Located at 123 West 71st Street, New York, NY 10023.
