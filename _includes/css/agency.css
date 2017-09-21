@@ -319,7 +319,7 @@ header .intro-text .intro-heading {
 
 header .sale-modal {
   background: transparent;
-  border: none;
+  border: dotted;
   text-align: center;
   min-height: 1em;
   min-width: 12em;
