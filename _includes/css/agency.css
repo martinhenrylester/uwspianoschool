@@ -275,6 +275,14 @@ fieldset[disabled] .btn-xl.active {
         background-repeat: no-repeat;
         background-position: center;
     }
+
+    .container{
+        width: 768px;
+    }
+
+    header .intro-text .intro-heading {
+        line-height: 30px !important;
+    }
 }
 
 header {
@@ -416,14 +424,15 @@ header .description{
         font-size: 40px;
         font-style: italic;
         line-height: 40px;
+        text-transform: capitalize;
     }
 
     header .intro-text .intro-heading {
         margin-bottom: 25px;
         /*text-transform: uppercase;*/
         font-family: {{ site.data.template.font.primary }};
-        font-size: 21px;
-        font-weight: 700;
+        font-size: 25px;
+        font-weight: 100;
         line-height: 10px;
     }
 }
