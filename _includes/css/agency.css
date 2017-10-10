@@ -27,6 +27,10 @@ p.large {
     font-size: 16px;
 }
 
+p strong {
+    text-shadow: #fec503 2px 2px 20px, #fec503 -2px -2px 20px, #fec503 -2px 2px 20px, #fec503 2px -2px 20px;
+}
+
 a,
 a:hover,
 a:focus,
@@ -46,8 +50,13 @@ a.active {
     color: #{{ site.data.template.color.secondary }};
 }
 
+h2 {
+    text-transform: uppercase;
+    font-family: "Indie Flower", cursive;
+    font-weight: 700;
+}
+
 h1,
-h2,
 h3,
 h4,
 h5,
@@ -217,6 +226,7 @@ fieldset[disabled] .btn-xl.active {
     -webkit-transition: all ease .35s;
     -moz-transition: all ease .35s;
     transition: all ease .35s;
+    padding: 10px 13px;
 }
 
 .navbar-default .nav li a:hover,
@@ -276,9 +286,9 @@ fieldset[disabled] .btn-xl.active {
         background-position: center;
     }
 
-    .container{
+    /*.container{
         width: 768px;
-    }
+    }*/
 
     header .intro-text .intro-heading {
         line-height: 30px !important;
@@ -454,6 +464,7 @@ section h3.section-subheading {
     font-size: 16px;
     font-style: italic;
     font-weight: 400;
+    padding: 0px 50px;
 }
 
 @media(min-width:768px) {
