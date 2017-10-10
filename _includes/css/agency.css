@@ -775,10 +775,16 @@ section h3.section-subheading {
     margin-top: 25px;
     margin-bottom: 0;
     text-transform: none;
+    font-size: 25px;
 }
 
 .team-member p {
     margin-top: 0;
+}
+
+.team-member .text-muted {
+    margin-top: 0;
+    font-size: 17px;
 }
 
 .read-more-state {
