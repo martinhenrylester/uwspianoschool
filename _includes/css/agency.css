@@ -478,6 +478,18 @@ section h3.section-subheading {
     text-transform: none;
 }
 
+i.fa.fa-building.fa-stack-1x.fa-inverse {
+    margin-left: 1px;
+}
+
+i.fa.fa-building.fa-stack-1x.fa-inverse {
+    margin-left: 1px;
+}
+
+i.fa.fa-desktop.fa-stack-1x.fa-inverse {
+    margin-top: 5px;
+}
+
 img.studio-pics {
     margin-left: auto;
     margin-right: auto;
