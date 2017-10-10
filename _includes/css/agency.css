@@ -461,7 +461,7 @@ section h3.section-subheading {
     margin-bottom: 75px;
     text-transform: none;
     font-family: {{ site.data.template.font.secondary }};
-    font-size: 16px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 400;
     padding: 0px 50px;
