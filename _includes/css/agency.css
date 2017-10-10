@@ -478,6 +478,11 @@ section h3.section-subheading {
     text-transform: none;
 }
 
+img.studio-pics {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #portfolio .portfolio-item {
     right: 0;
     margin: 0 0 15px;
