@@ -17,13 +17,38 @@
 	text-align:center;
 	color:#666;
 	margin-top:35px;
-	font-family: 'Open Sans', sans-serif;
+	/*font-family: 'Open Sans', sans-serif;*/
+}
+
+.price_table_container .btn {
+    border-radius: 0px;
+    font-size: 25px;
+}
+
+.price_table_container .btn-success {
+    background-color: darkgreen;
+    border-color: darkgreen;
+}
+
+.price_table_container .btn-success {
+    background-color: darkgreen;
+    border-color: darkgreen;
+}
+
+.price_table_container .btn-success:hover {
+    background-color: #ff7800;
+    border-color: #ff7800;
+}
+
+.price_table_container a.btn {
+    border-radius: 0px 0px 5px 5px;
 }
 
 .price_table_heading{
 	font-size:36px;
 	padding:10px;
 	background:#EEE;
+	border-radius: 5px 5px 0px 0px;
 }
 
 
@@ -34,7 +59,7 @@
 
 .cost{
 	padding:30px;
-	font-size:30px;
+	font-size:40px;
 }
 .cost span{
 	font-size:15px;
@@ -155,14 +180,22 @@ font-family: 'Open Sans', sans-serif;
 }
 
 
+.darkblue-bg {
+    background: darkblue;
+    color: #FFF;
+}
 
+.in-studio-button, .in-home-button, .online-button {
+    border-radius: 5px;
+}
 
+.container.policies {
+    padding-top: 20px;
+}
 
-
-
-
-
-
+.online-rates .row {
+    padding-top: 55px;
+}
 
 /*!
  * Hover.css (http://ianlunn.co.uk/)
