@@ -1075,3 +1075,8 @@ body {
     width: 100% !important;
     height: 100% !important;
 }
+
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
