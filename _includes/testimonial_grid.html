@@ -1,0 +1,28 @@
+<!-- Testimonial Grid Section -->
+    <section id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Testimonials</h2>
+                    <!-- <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3> -->
+                </div>
+            </div>
+            <div class="row">
+            {% for post in site.posts %}
+              <div class="mb-wrap mb-style-3">
+                <div class="col-md-6 col-sm-6 portfolio-item">
+                  <blockquote class="testimonial-quote">
+                    <p>{{ post.testimonial }}</p>
+                  </blockquote>
+                  <div class="mb-attribution">
+                    <p class="mb-author">{{ post.parent-name }}</p>
+                    <cite>{{ post.student-name }}, {{ post.student-age }}</cite>
+                    <div class="mb-thumb" style="background: url(&quot;img/portfolio/{{ post.thumbnail }}&quot;) center / cover no-repeat;">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            {% endfor %}
+            </div>
+        </div>
+    </section>
