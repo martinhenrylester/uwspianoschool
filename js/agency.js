@@ -40,6 +40,10 @@ $('a.close-ribbon').on('click', function(){
     $('div.sale-modal').hide();
 });
 
+$('a.page-scroll').on('click', function(){
+    $('div.sale-modal').hide();
+});
+
 $('.in-studio-button').on('click', function(){
     $('.in-studio-rates').show();
     $('.in-home-rates').hide();
