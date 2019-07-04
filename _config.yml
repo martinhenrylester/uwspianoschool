@@ -12,7 +12,7 @@ logo-alt: uws_ps_logo_yellow
 team-description: <p>At Upper West Side Piano School we offer <strong>one-on-one piano lessons</strong> to students of all ages and levels. Whether you are introducing your child to the world of music, fulfilling your own dreams of learning piano, preparing for college auditions, or anything in between, we structure our lessons to meet our student’s <strong>individual goals</strong>. Lessons at UWS Piano School concentrate on the development of rhythm and note literacy, along with knowledge of music theory and history, to provide the foundation necessary for all musical pursuits. We strive to instill efficient practice habits and technical skills at the keyboard, enabling our students to confidently explore any genre of music they wish.</p><p>Helping pianists discover and develop their talents in an honest and encouraging manner is very important to us. We find that a <strong>fun and supportive atmosphere</strong> filled with clear, positive communication allows students to achieve the best of their individual ability.</p><p><strong>Recitals</strong> are free of charge and are held in the sanctuary at Grace and St. Paul’s, with a reception to follow. They provide a comfortable atmosphere for our students to share the fruits of their hard work with friends and family. While participation is not mandatory, we encourage all students to take part in performing.  Regular public performance is helpful in developing self-confidence and appreciation for the work of others.</p><p>Receptions follow our Winter and Spring Children’s Recitals where students have a chance to meet one another and make new friends. For our adult students, we organize cheese and wine soirées for you to perform in a casual setting.</p>Additional performing opportunities are available.</p>
 
 people:
-- name: Sean Carmichael
+- name: Sean Carmichael, Piano
   pic: 1
   position: Doctor of Musical Arts
   mini-bio: <p>Dr. Sean Carmichael is the Director of Music and organist at Grace and St. Paul’s Church and has recently completed a D.M.A. in Piano Performance at the University of Maryland, studying under Dr. Mayron Tsong. He completed his Bachelor of Music with a concentration in Piano Pedagogy and Master of Music degrees in Piano Performance at SUNY Potsdam while studying with renowned pianist and painter, Dr. Paul Wyse.</p>
@@ -22,7 +22,7 @@ people:
   #     url: https://www.linkedin.com/in/sean-carmichael-313362107/
 
 
-- name: Nadia Christova Carmichael
+- name: Nadia Christova Carmichael, Piano
   pic: 2
   position: Doctor of Musical Arts
   mini-bio: <p>Born and raised in Bulgaria, Dr. Nadia Christova Carmichael has been studying and performing piano since the age of six.  She attended the National School of Music in Sofia, Bulgaria majoring in Piano Performance and Pedagogy.  In 2006, she graduated with a Bachelors of Music with honors in Piano Performance from the National Academy of Music in Sofia.  After relocating to the United States, Dr. Christova Carmichael obtained her Masters in Chamber Music and Piano Performance from the University of South Florida in Tampa where she studied with Dr. Svetozar Ivanov.  She recently completed her doctoral studies at the University of Maryland, College Park under the tutelage of the renowned pianist and pedagogue Rita Sloan.</p>
@@ -32,9 +32,9 @@ people:
   #     url: https://www.linkedin.com/in/nadezhda-christova-0b8b05110/
 
 
-- name: Tomina Parnova
+- name: Tomina Parnova, Harp
   pic: 3
-  position: Master of Music Performance
+  position: Master of Music
   mini-bio: <p>Based in New York City, harpist Tomina Parvanova has performed with a myriad of major orchestras and ensembles, including Boston Symphony Orchestra, New Jersey Symphony, Boston Ballet, to name a few. Ms. Parvanova has served as principal harpist for the Radio City Christmas Spectacular Orchestra for three consecutive seasons. On Broadway she performed for Carousel and Hello Dolly. Past shows include, The Fantasticks and Amelie. She is the principal harpist of New York Repertory Orchestra, and performs frequently with Albany Symphony Orchestra and Louisiana Philharmonic Orchestra. She has played at some of the most prestigious venues including Carnegie Hall, Boston Symphony Hall, Radio City Music Hall, Seji Ozawa Hall and Koussevitzky Music Shed. </p>
   bio: <p>Awards include first prize at the Bulgarian International Music Competition “Young Virtuoso”, and second place at the USA International Music Competition (Boston, MA). She is also a two times winner of the AHS Boston Chapter "Ann Hobson Pilot Scholarship" (2010, 2011). In 2011 Ms. Parvanova was a harp fellow at the prestigious Tanglewood Music Center where she performed under the baton of world renowned conductors, such as Jaap van Zweden, Kurt Masur, Rafael Frühbeck de Burgos, and worked closely with Pulitzer Prize winning composer Charles Wourinen. Ms. Parvanova has premiered works by some of America's most celebrated composers, including Charles Wourinen, Gunther Schuller, Aaron Jay Kernis, Martin Boykan, George Tsontakis, and has performed with new music groups, such as Boston Modern Orchestra Project and Sound Icon. Ms. Parvanova is also featured on recordings with Albany Symphony Orchestra, Boston Modern Orchestra Project and Providence Singers. Her teaching experience includes Adjunct Professor at the Boston Conservatory, and harp teaching assistant for undergraduate minor students at Boston University. Under a full tuition scholarship, Ms. Parvanova received her Masters Degree from Boston University - College of Fine Arts, and Bachelors Degree from The Boston Conservatory. </p>
   
@@ -55,13 +55,13 @@ address:
 
 phone: (203) 900-4209
 
-in-studio-30min: 50
-in-studio-45min: 75
-in-studio-60min: 100
+in-studio-30min: 55
+in-studio-45min: 82.50
+in-studio-60min: 110
 
-in-home-30min: 60
-in-home-45min: 85
-in-home-60min: 110
+in-home-30min: 65
+in-home-45min: 92.50
+in-home-60min: 120
 
 # Build settings
 markdown: kramdown
