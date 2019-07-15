@@ -17,7 +17,7 @@
               <!-- Wrapper for carousel items -->
               <div class="carousel-inner">
                   {% for pic in site.gallery-pics %}
-                      {% if pic.first == "true" %}
+                      {% if forloop.first == true %}
                       <div class="item active">
                       {% else %}
                       <div class="item">
