@@ -64,8 +64,8 @@ in-home-45min: 92.50
 in-home-60min: 120
 
 gallery-pics:
-- name: kid1.jpg
-- name: kid2.jpg
+  - name: kid1.jpg
+  - name: kid2.jpg
 
 # Build settings
 markdown: kramdown
