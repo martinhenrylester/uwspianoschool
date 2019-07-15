@@ -67,6 +67,7 @@ gallery-pics:
 - name: kid1.jpg
   first: true
 - name: kid2.jpg
+  first: false
 
 # Build settings
 markdown: kramdown
