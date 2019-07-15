@@ -37,7 +37,7 @@ people:
   position: Master of Music
   mini-bio: <p>Based in New York City, harpist Tomina Parvanova has performed with a myriad of major orchestras and ensembles, including Boston Symphony Orchestra, New Jersey Symphony, Boston Ballet, to name a few. Ms. Parvanova has served as principal harpist for the Radio City Christmas Spectacular Orchestra for three consecutive seasons. On Broadway she performed for Carousel and Hello Dolly. Past shows include, The Fantasticks and Amelie. She is the principal harpist of New York Repertory Orchestra, and performs frequently with Albany Symphony Orchestra and Louisiana Philharmonic Orchestra. She has played at some of the most prestigious venues including Carnegie Hall, Boston Symphony Hall, Radio City Music Hall, Seji Ozawa Hall and Koussevitzky Music Shed. </p>
   bio: <p>Awards include first prize at the Bulgarian International Music Competition “Young Virtuoso”, and second place at the USA International Music Competition (Boston, MA). She is also a two times winner of the AHS Boston Chapter "Ann Hobson Pilot Scholarship" (2010, 2011). In 2011 Ms. Parvanova was a harp fellow at the prestigious Tanglewood Music Center where she performed under the baton of world renowned conductors, such as Jaap van Zweden, Kurt Masur, Rafael Frühbeck de Burgos, and worked closely with Pulitzer Prize winning composer Charles Wourinen. Ms. Parvanova has premiered works by some of America's most celebrated composers, including Charles Wourinen, Gunther Schuller, Aaron Jay Kernis, Martin Boykan, George Tsontakis, and has performed with new music groups, such as Boston Modern Orchestra Project and Sound Icon. Ms. Parvanova is also featured on recordings with Albany Symphony Orchestra, Boston Modern Orchestra Project and Providence Singers. Her teaching experience includes Adjunct Professor at the Boston Conservatory, and harp teaching assistant for undergraduate minor students at Boston University. Under a full tuition scholarship, Ms. Parvanova received her Masters Degree from Boston University - College of Fine Arts, and Bachelors Degree from The Boston Conservatory. </p>
-  
+
   # social:
   #   - title: linkedin
   #     url: https://www.linkedin.com/in/sean-carmichael-313362107/
@@ -62,6 +62,10 @@ in-studio-60min: 110
 in-home-30min: 65
 in-home-45min: 92.50
 in-home-60min: 120
+
+gallery-pics:
+- name: kid1.jpg
+- name: kid2.jpg
 
 # Build settings
 markdown: kramdown
