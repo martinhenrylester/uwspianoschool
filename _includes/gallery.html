@@ -17,7 +17,7 @@
               <!-- Wrapper for carousel items -->
               <div class="carousel-inner">
                   {% for pic in site.gallery-pics %}
-                  <div class="item {% if pic.first %}active{% endif %}">
+                  <div class="item {% if pic.first And pic.first != "" And pic.first !=nil %}active{% endif %}">
                       <img src="img/gallery/{{ pic.name }}" alt="{{ pic.name }} Slide">
                   </div>
                   {% endfor %}
