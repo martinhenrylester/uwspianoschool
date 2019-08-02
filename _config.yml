@@ -66,7 +66,20 @@ in-home-60min: 120
 gallery-pics:
   - name: kid1.jpg
   - name: kid2.jpg
-  - name: harpstudents.JPEG
+  - name: pianorecital1.jpg
+  - name: pianorecital2.jpg
+  - name: pianorecital3.jpg
+  - name: pianorecital4.jpg
+  - name: pianorecital5-edited.png
+  - name: pianorecital6.jpg
+  - name: pianorecital7.jpg
+  - name: pianorecital8.jpg
+  - name: pianorecital9.jpg
+  - name: pianorecital10.jpg
+  - name: pianorecital11.jpg
+  - name: pianorecital12.jpg
+  - name: pianorecital13.jpg
+  - name: pianorecital14.jpg
 
 # Build settings
 markdown: kramdown
