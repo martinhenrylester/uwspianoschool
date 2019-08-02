@@ -11,8 +11,14 @@
               <div id="myCarousel" class="carousel slide" data-ride="carousel">
               <!-- Carousel indicators -->
               <ol class="carousel-indicators">
-                  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                  <li data-target="#myCarousel" data-slide-to="1"></li>
+                  {% for pic in site.gallery-pics %}
+                      {% if forloop.first == true %}
+                      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                      {% else %}
+                      <li data-target="#myCarousel" data-slide-to="{{ forloop.index0 }}"></li>
+                      {% endif %}
+                    </div>
+                  {% endfor %}
               </ol>
               <!-- Wrapper for carousel items -->
               <div class="carousel-inner">
